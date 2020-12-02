@@ -23,3 +23,11 @@ class TestCalculatorFunctions(unittest.TestCase):
     def test_multiply_returns_50(self):
         returns_50 = multiply(25, 2)
         self.assertEqual(50, returns_50)
+
+    def test_squared_returns_4(self):
+        returns_4 = squared(2)
+        self.assertEqual(4, returns_4)
+
+    def test_squared_returns_289(self):
+        returns_289 = squared(17)
+        self.assertEqual(289, returns_289)
