@@ -19,3 +19,7 @@ class TestCalculatorFunctions(unittest.TestCase):
     def test_divide_returns_2(self):
         returns_2 = divide(10, 5)
         self.assertEqual(2, returns_2)
+
+    def test_multiply_returns_50(self):
+        returns_50 = multiply(25, 2)
+        self.assertEqual(50, returns_50)
