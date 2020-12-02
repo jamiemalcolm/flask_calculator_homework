@@ -11,3 +11,7 @@ class TestCalculatorFunctions(unittest.TestCase):
     def test_add_returns_6000(self):
         returns_6000 = add(4031, 1969)
         self.assertEqual(6000, returns_6000)
+
+    def test_subtract_returns_6(self):
+        returns_6 = subtract(10, 4)
+        self.assertEqual(6, returns_6)
